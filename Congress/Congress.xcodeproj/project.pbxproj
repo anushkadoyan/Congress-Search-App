@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DE9F934B0C1522D5541AA8B /* Pods_CongressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9355A7F038E3B5136546F /* Pods_CongressUITests.framework */; };
 		847523201DE12E0100FBD814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475231F1DE12E0100FBD814 /* main.m */; };
 		847523231DE12E0100FBD814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523221DE12E0100FBD814 /* AppDelegate.m */; };
 		847523261DE12E0100FBD814 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523251DE12E0100FBD814 /* FirstViewController.m */; };
@@ -17,6 +18,8 @@
 		8475233C1DE12E0200FBD814 /* CongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475233B1DE12E0200FBD814 /* CongressTests.m */; };
 		847523471DE12E0200FBD814 /* CongressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523461DE12E0200FBD814 /* CongressUITests.m */; };
 		847523591DE1698800FBD814 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523581DE1698800FBD814 /* ThirdViewController.m */; };
+		8AF830CEAC127176E364C75F /* Pods_CongressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B346F0014D15EBEA49A1BF1E /* Pods_CongressTests.framework */; };
+		F9E482EFBDC002C3DF582F2E /* Pods_Congress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF05D110E8CE96E5F38BEC42 /* Pods_Congress.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20B97A2EDAEB8F5C1B5A1057 /* Pods-CongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests.release.xcconfig"; sourceTree = "<group>"; };
 		8475231B1DE12E0100FBD814 /* Congress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475231F1DE12E0100FBD814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847523211DE12E0100FBD814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +61,14 @@
 		847523481DE12E0200FBD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847523571DE1698800FBD814 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		847523581DE1698800FBD814 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		888941DB6D914E793AD64CDA /* Pods-CongressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CongressUITests/Pods-CongressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B346F0014D15EBEA49A1BF1E /* Pods_CongressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D39AF7B6D1EC07D0216BD1CE /* Pods-Congress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congress.release.xcconfig"; path = "Pods/Target Support Files/Pods-Congress/Pods-Congress.release.xcconfig"; sourceTree = "<group>"; };
+		E553D1EA1B2ECBEBB84A64EA /* Pods-CongressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF05D110E8CE96E5F38BEC42 /* Pods_Congress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Congress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B27704D9D1F6A187F03CE9 /* Pods-Congress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Congress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Congress/Pods-Congress.debug.xcconfig"; sourceTree = "<group>"; };
+		F4E9355A7F038E3B5136546F /* Pods_CongressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CongressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E17A0CD87FCA6B8CFB7163 /* Pods-CongressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CongressUITests/Pods-CongressUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E482EFBDC002C3DF582F2E /* Pods_Congress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF830CEAC127176E364C75F /* Pods_CongressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE9F934B0C1522D5541AA8B /* Pods_CongressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		431AB9063A8841B6AA84DA86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4B27704D9D1F6A187F03CE9 /* Pods-Congress.debug.xcconfig */,
+				D39AF7B6D1EC07D0216BD1CE /* Pods-Congress.release.xcconfig */,
+				E553D1EA1B2ECBEBB84A64EA /* Pods-CongressTests.debug.xcconfig */,
+				20B97A2EDAEB8F5C1B5A1057 /* Pods-CongressTests.release.xcconfig */,
+				888941DB6D914E793AD64CDA /* Pods-CongressUITests.debug.xcconfig */,
+				F5E17A0CD87FCA6B8CFB7163 /* Pods-CongressUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		847523121DE12E0100FBD814 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +120,7 @@
 				847523451DE12E0200FBD814 /* CongressUITests */,
 				8475231C1DE12E0100FBD814 /* Products */,
 				CD4F7F5A8E6A024DD6AE116E /* Frameworks */,
+				431AB9063A8841B6AA84DA86 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,6 +183,9 @@
 		CD4F7F5A8E6A024DD6AE116E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EF05D110E8CE96E5F38BEC42 /* Pods_Congress.framework */,
+				B346F0014D15EBEA49A1BF1E /* Pods_CongressTests.framework */,
+				F4E9355A7F038E3B5136546F /* Pods_CongressUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -165,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8475234B1DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "Congress" */;
 			buildPhases = (
+				297A8941F4A9B4CA5BB03C32 /* [CP] Check Pods Manifest.lock */,
 				847523171DE12E0100FBD814 /* Sources */,
 				847523181DE12E0100FBD814 /* Frameworks */,
 				847523191DE12E0100FBD814 /* Resources */,
+				38EA4D53969D6697BF3570F9 /* [CP] Embed Pods Frameworks */,
+				81821DAA1FB633D76E70F7DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -309,6 +344,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CongressUITests/Pods-CongressUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		297A8941F4A9B4CA5BB03C32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 		2EC8218762D25E5F485C0C09 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -322,6 +372,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38EA4D53969D6697BF3570F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Congress/Pods-Congress-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4E13F3C38B9AE77A57977FC7 /* [CP] Check Pods Manifest.lock */ = {
@@ -352,6 +417,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81821DAA1FB633D76E70F7DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Congress/Pods-Congress-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BAB7E4CD0496C832B0FC8344 /* [CP] Check Pods Manifest.lock */ = {
@@ -475,6 +555,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -538,6 +619,7 @@
 		};
 		8475234C1DE12E0200FBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B27704D9D1F6A187F03CE9 /* Pods-Congress.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -552,6 +634,7 @@
 		};
 		8475234D1DE12E0200FBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39AF7B6D1EC07D0216BD1CE /* Pods-Congress.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -566,6 +649,7 @@
 		};
 		8475234F1DE12E0200FBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E553D1EA1B2ECBEBB84A64EA /* Pods-CongressTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CongressTests/Info.plist;
@@ -578,6 +662,7 @@
 		};
 		847523501DE12E0200FBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20B97A2EDAEB8F5C1B5A1057 /* Pods-CongressTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CongressTests/Info.plist;
@@ -590,6 +675,7 @@
 		};
 		847523521DE12E0200FBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 888941DB6D914E793AD64CDA /* Pods-CongressUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CongressUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -601,6 +687,7 @@
 		};
 		847523531DE12E0200FBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E17A0CD87FCA6B8CFB7163 /* Pods-CongressUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = CongressUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
