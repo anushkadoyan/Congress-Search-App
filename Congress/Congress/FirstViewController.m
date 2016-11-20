@@ -19,8 +19,7 @@
     [super viewDidLoad];
 //    [self.stateTab setTitlePositionAdjustment:UIOffsetMake(0, -10)];
     
-
-    // Do any additional setup after loading the view, typically from a nib.
+        // Do any additional setup after loading the view, typically from a nib.
 }
 
 

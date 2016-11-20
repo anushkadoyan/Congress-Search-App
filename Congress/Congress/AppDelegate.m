@@ -17,6 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [UITabBarItem.appearance setTitleTextAttributes: @{
+                                                       NSFontAttributeName : [UIFont systemFontOfSize:20]
+                                                       } forState:UIControlStateNormal];
+
     return YES;
 }
 
