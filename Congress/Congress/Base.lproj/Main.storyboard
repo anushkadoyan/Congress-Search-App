@@ -99,7 +99,7 @@
         <!--Senate-->
         <scene sceneID="PzG-mG-yvI">
             <objects>
-                <viewController id="Bxh-zl-5Ln" sceneMemberID="viewController">
+                <viewController id="Bxh-zl-5Ln" customClass="ThirdViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="R0i-Ve-Qwl"/>
                         <viewControllerLayoutGuide type="bottom" id="2zA-gb-kpV"/>
