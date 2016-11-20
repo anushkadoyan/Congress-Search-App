@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847523201DE12E0100FBD814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475231F1DE12E0100FBD814 /* main.m */; };
+		847523231DE12E0100FBD814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523221DE12E0100FBD814 /* AppDelegate.m */; };
+		847523261DE12E0100FBD814 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523251DE12E0100FBD814 /* FirstViewController.m */; };
+		847523291DE12E0100FBD814 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523281DE12E0100FBD814 /* SecondViewController.m */; };
+		8475232C1DE12E0100FBD814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475232A1DE12E0100FBD814 /* Main.storyboard */; };
+		8475232E1DE12E0100FBD814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8475232D1DE12E0100FBD814 /* Assets.xcassets */; };
+		847523311DE12E0100FBD814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8475232F1DE12E0100FBD814 /* LaunchScreen.storyboard */; };
+		8475233C1DE12E0200FBD814 /* CongressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475233B1DE12E0200FBD814 /* CongressTests.m */; };
+		847523471DE12E0200FBD814 /* CongressUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523461DE12E0200FBD814 /* CongressUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847523381DE12E0200FBD814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847523131DE12E0100FBD814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8475231A1DE12E0100FBD814;
+			remoteInfo = Congress;
+		};
+		847523431DE12E0200FBD814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 847523131DE12E0100FBD814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8475231A1DE12E0100FBD814;
+			remoteInfo = Congress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8475231B1DE12E0100FBD814 /* Congress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8475231F1DE12E0100FBD814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		847523211DE12E0100FBD814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		847523221DE12E0100FBD814 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		847523241DE12E0100FBD814 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		847523251DE12E0100FBD814 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		847523271DE12E0100FBD814 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		847523281DE12E0100FBD814 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8475232B1DE12E0100FBD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8475232D1DE12E0100FBD814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847523301DE12E0100FBD814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847523321DE12E0100FBD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847523371DE12E0200FBD814 /* CongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8475233B1DE12E0200FBD814 /* CongressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CongressTests.m; sourceTree = "<group>"; };
+		8475233D1DE12E0200FBD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847523421DE12E0200FBD814 /* CongressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CongressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847523461DE12E0200FBD814 /* CongressUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CongressUITests.m; sourceTree = "<group>"; };
+		847523481DE12E0200FBD814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847523181DE12E0100FBD814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847523341DE12E0200FBD814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475233F1DE12E0200FBD814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847523121DE12E0100FBD814 = {
+			isa = PBXGroup;
+			children = (
+				8475231D1DE12E0100FBD814 /* Congress */,
+				8475233A1DE12E0200FBD814 /* CongressTests */,
+				847523451DE12E0200FBD814 /* CongressUITests */,
+				8475231C1DE12E0100FBD814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8475231C1DE12E0100FBD814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8475231B1DE12E0100FBD814 /* Congress.app */,
+				847523371DE12E0200FBD814 /* CongressTests.xctest */,
+				847523421DE12E0200FBD814 /* CongressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8475231D1DE12E0100FBD814 /* Congress */ = {
+			isa = PBXGroup;
+			children = (
+				847523211DE12E0100FBD814 /* AppDelegate.h */,
+				847523221DE12E0100FBD814 /* AppDelegate.m */,
+				847523241DE12E0100FBD814 /* FirstViewController.h */,
+				847523251DE12E0100FBD814 /* FirstViewController.m */,
+				847523271DE12E0100FBD814 /* SecondViewController.h */,
+				847523281DE12E0100FBD814 /* SecondViewController.m */,
+				8475232A1DE12E0100FBD814 /* Main.storyboard */,
+				8475232D1DE12E0100FBD814 /* Assets.xcassets */,
+				8475232F1DE12E0100FBD814 /* LaunchScreen.storyboard */,
+				847523321DE12E0100FBD814 /* Info.plist */,
+				8475231E1DE12E0100FBD814 /* Supporting Files */,
+			);
+			path = Congress;
+			sourceTree = "<group>";
+		};
+		8475231E1DE12E0100FBD814 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8475231F1DE12E0100FBD814 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8475233A1DE12E0200FBD814 /* CongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				8475233B1DE12E0200FBD814 /* CongressTests.m */,
+				8475233D1DE12E0200FBD814 /* Info.plist */,
+			);
+			path = CongressTests;
+			sourceTree = "<group>";
+		};
+		847523451DE12E0200FBD814 /* CongressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847523461DE12E0200FBD814 /* CongressUITests.m */,
+				847523481DE12E0200FBD814 /* Info.plist */,
+			);
+			path = CongressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8475231A1DE12E0100FBD814 /* Congress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475234B1DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "Congress" */;
+			buildPhases = (
+				847523171DE12E0100FBD814 /* Sources */,
+				847523181DE12E0100FBD814 /* Frameworks */,
+				847523191DE12E0100FBD814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Congress;
+			productName = Congress;
+			productReference = 8475231B1DE12E0100FBD814 /* Congress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847523361DE12E0200FBD814 /* CongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8475234E1DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "CongressTests" */;
+			buildPhases = (
+				847523331DE12E0200FBD814 /* Sources */,
+				847523341DE12E0200FBD814 /* Frameworks */,
+				847523351DE12E0200FBD814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847523391DE12E0200FBD814 /* PBXTargetDependency */,
+			);
+			name = CongressTests;
+			productName = CongressTests;
+			productReference = 847523371DE12E0200FBD814 /* CongressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847523411DE12E0200FBD814 /* CongressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847523511DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "CongressUITests" */;
+			buildPhases = (
+				8475233E1DE12E0200FBD814 /* Sources */,
+				8475233F1DE12E0200FBD814 /* Frameworks */,
+				847523401DE12E0200FBD814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847523441DE12E0200FBD814 /* PBXTargetDependency */,
+			);
+			name = CongressUITests;
+			productName = CongressUITests;
+			productReference = 847523421DE12E0200FBD814 /* CongressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847523131DE12E0100FBD814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Anush Kadoyan";
+				TargetAttributes = {
+					8475231A1DE12E0100FBD814 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					847523361DE12E0200FBD814 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8475231A1DE12E0100FBD814;
+					};
+					847523411DE12E0200FBD814 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8475231A1DE12E0100FBD814;
+					};
+				};
+			};
+			buildConfigurationList = 847523161DE12E0100FBD814 /* Build configuration list for PBXProject "Congress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847523121DE12E0100FBD814;
+			productRefGroup = 8475231C1DE12E0100FBD814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8475231A1DE12E0100FBD814 /* Congress */,
+				847523361DE12E0200FBD814 /* CongressTests */,
+				847523411DE12E0200FBD814 /* CongressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847523191DE12E0100FBD814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847523311DE12E0100FBD814 /* LaunchScreen.storyboard in Resources */,
+				8475232E1DE12E0100FBD814 /* Assets.xcassets in Resources */,
+				8475232C1DE12E0100FBD814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847523351DE12E0200FBD814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847523401DE12E0200FBD814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847523171DE12E0100FBD814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847523291DE12E0100FBD814 /* SecondViewController.m in Sources */,
+				847523231DE12E0100FBD814 /* AppDelegate.m in Sources */,
+				847523261DE12E0100FBD814 /* FirstViewController.m in Sources */,
+				847523201DE12E0100FBD814 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847523331DE12E0200FBD814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8475233C1DE12E0200FBD814 /* CongressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8475233E1DE12E0200FBD814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847523471DE12E0200FBD814 /* CongressUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847523391DE12E0200FBD814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8475231A1DE12E0100FBD814 /* Congress */;
+			targetProxy = 847523381DE12E0200FBD814 /* PBXContainerItemProxy */;
+		};
+		847523441DE12E0200FBD814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8475231A1DE12E0100FBD814 /* Congress */;
+			targetProxy = 847523431DE12E0200FBD814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8475232A1DE12E0100FBD814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8475232B1DE12E0100FBD814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8475232F1DE12E0100FBD814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847523301DE12E0100FBD814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847523491DE12E0200FBD814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8475234A1DE12E0200FBD814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8475234C1DE12E0200FBD814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Congress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Congress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8475234D1DE12E0200FBD814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Congress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Congress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8475234F1DE12E0200FBD814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.CongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congress.app/Congress";
+			};
+			name = Debug;
+		};
+		847523501DE12E0200FBD814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.CongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Congress.app/Congress";
+			};
+			name = Release;
+		};
+		847523521DE12E0200FBD814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.CongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Congress;
+			};
+			name = Debug;
+		};
+		847523531DE12E0200FBD814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.CongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Congress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847523161DE12E0100FBD814 /* Build configuration list for PBXProject "Congress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847523491DE12E0200FBD814 /* Debug */,
+				8475234A1DE12E0200FBD814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8475234B1DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "Congress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475234C1DE12E0200FBD814 /* Debug */,
+				8475234D1DE12E0200FBD814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8475234E1DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "CongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8475234F1DE12E0200FBD814 /* Debug */,
+				847523501DE12E0200FBD814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		847523511DE12E0200FBD814 /* Build configuration list for PBXNativeTarget "CongressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847523521DE12E0200FBD814 /* Debug */,
+				847523531DE12E0200FBD814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847523131DE12E0100FBD814 /* Project object */;
+}
