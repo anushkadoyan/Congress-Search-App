@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7DE9F934B0C1522D5541AA8B /* Pods_CongressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E9355A7F038E3B5136546F /* Pods_CongressUITests.framework */; };
+		842A6E531DE185E4008DB608 /* lol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842A6E521DE185E4008DB608 /* lol.swift */; };
 		847523201DE12E0100FBD814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8475231F1DE12E0100FBD814 /* main.m */; };
 		847523231DE12E0100FBD814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523221DE12E0100FBD814 /* AppDelegate.m */; };
 		847523261DE12E0100FBD814 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847523251DE12E0100FBD814 /* FirstViewController.m */; };
@@ -41,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		20B97A2EDAEB8F5C1B5A1057 /* Pods-CongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CongressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CongressTests/Pods-CongressTests.release.xcconfig"; sourceTree = "<group>"; };
+		842A6E521DE185E4008DB608 /* lol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = lol.swift; sourceTree = "<group>"; };
+		842A6E551DE186CE008DB608 /* Congress-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Congress-Bridging-Header.h"; sourceTree = "<group>"; };
 		8475231B1DE12E0100FBD814 /* Congress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Congress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8475231F1DE12E0100FBD814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		847523211DE12E0100FBD814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -150,6 +153,8 @@
 				8475232F1DE12E0100FBD814 /* LaunchScreen.storyboard */,
 				847523321DE12E0100FBD814 /* Info.plist */,
 				8475231E1DE12E0100FBD814 /* Supporting Files */,
+				842A6E521DE185E4008DB608 /* lol.swift */,
+				842A6E551DE186CE008DB608 /* Congress-Bridging-Header.h */,
 			);
 			path = Congress;
 			sourceTree = "<group>";
@@ -473,6 +478,7 @@
 			files = (
 				847523291DE12E0100FBD814 /* SecondViewController.m in Sources */,
 				847523591DE1698800FBD814 /* ThirdViewController.m in Sources */,
+				842A6E531DE185E4008DB608 /* lol.swift in Sources */,
 				847523231DE12E0100FBD814 /* AppDelegate.m in Sources */,
 				847523261DE12E0100FBD814 /* FirstViewController.m in Sources */,
 				847523201DE12E0100FBD814 /* main.m in Sources */,
@@ -533,11 +539,12 @@
 		847523491DE12E0200FBD814 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -554,6 +561,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -570,21 +578,23 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Congress-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		8475234A1DE12E0200FBD814 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_MODULES = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
@@ -601,6 +611,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -611,9 +622,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Congress-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -623,11 +635,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Congress/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Congress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Congress/Congress-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -638,11 +653,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Congress/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.Congress;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Congress/Congress-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -651,6 +668,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E553D1EA1B2ECBEBB84A64EA /* Pods-CongressTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CongressTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -664,6 +682,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 20B97A2EDAEB8F5C1B5A1057 /* Pods-CongressTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CongressTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -677,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 888941DB6D914E793AD64CDA /* Pods-CongressUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CongressUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.CongressUITests;
@@ -689,6 +709,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F5E17A0CD87FCA6B8CFB7163 /* Pods-CongressUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CongressUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.CongressUITests;
